@@ -1,0 +1,107 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+/* Hero Section */
+.hero-section{
+    background: linear-gradient(to right,#0d6efd,#20c997);
+    color:white;
+    text-align:center;
+    padding:80px 20px;
+}
+
+/* Navbar */
+.navbar-brand{
+    font-size:1.5rem;
+    font-weight:bold;
+}
+
+/* Cards */
+.card{
+    border:none;
+    border-radius:15px;
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+}
+
+.card img{
+    height:220px;
+    object-fit:cover;
+}
+
+/* Form Section */
+.form-section{
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+.form-control:focus,
+.form-select:focus{
+    box-shadow:none;
+    border-color:#0d6efd;
+}
+
+/* Custom Button */
+.btn-custom{
+    background:#0d6efd;
+    color:white;
+    border-radius:25px;
+}
+
+.btn-custom:hover{
+    background:#084298;
+    color:white;
+}
+
+/* Dashboard */
+.dashboard-box{
+    padding:20px;
+    text-align:center;
+    color:white;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+/* Footer */
+.footer{
+    background:#212529;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+.footer i{
+    font-size:25px;
+    margin:0 10px;
+    cursor:pointer;
+}
+
+.footer i:hover{
+    color:#0d6efd;
+}
+
+/* Responsive */
+@media(max-width:768px){
+
+    .hero-section{
+        padding:50px 10px;
+    }
+
+    .navbar-nav{
+        text-align:center;
+    }
+
+    .card img{
+        height:180px;
+    }
+
+    h1{
+        font-size:2rem;
+    }
+}
